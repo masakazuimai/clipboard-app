@@ -8,7 +8,7 @@ let clipboardInterval;
 function createWindow() {
   const { width: screenWidth, height: screenHeight } = screen.getPrimaryDisplay().workAreaSize;
 
-  const winWidth = Math.floor(screenWidth * 0.3); // 右30%
+  const winWidth = Math.floor(screenWidth * 0.25); // 右25%
   const winHeight = Math.floor(screenHeight * 0.9); // 高さ90%
   const winX = screenWidth - winWidth;
   const winY = Math.floor((screenHeight - winHeight) / 2);
