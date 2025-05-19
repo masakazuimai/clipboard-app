@@ -1,0 +1,11 @@
+# node modules
+node_modules/
+
+# Electron build outputs
+*.app
+clipboard-app-darwin-*/
+dist/
+out/
+
+# macOS system files
+.DS_Store
